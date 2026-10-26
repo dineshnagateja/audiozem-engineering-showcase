@@ -1,0 +1,12 @@
+{
+  "name": "audiozem-engineering-showcase",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AudioZem product overview and an offline TypeScript text-chunking example",
+  "type": "module",
+  "engines": { "node": ">=24" },
+  "scripts": {
+    "demo": "node demo.ts",
+    "test": "node --test chunk-text.test.ts"
+  }
+}
